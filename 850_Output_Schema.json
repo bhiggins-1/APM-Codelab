@@ -1,0 +1,129 @@
+{
+	"type": "object",
+	"properties": {
+		"Transaction_Name": {
+			"type": "string"
+		},
+		"Sender_ID": {
+			"type": "string"
+		},
+		"Receiver_ID": {
+			"type": "string"
+		},
+		"PO_Type": {
+			"type": "string"
+		},
+		"PO_Number": {
+			"type": "string"
+		},
+		"PO_Date": {
+			"type": "string"
+		},
+		"Total_Transaction_Amount": {
+			"type": "string"
+		},
+		"Buyer_Information": {
+			"properties": {
+				"Name": {
+					"type": "string"
+				},
+				"Communication_Number": {
+					"type": "string"
+				}
+			}
+		},
+		"Tax_Information": {
+			"properties": {
+				"Tax_Identification_Number": {
+					"type": "string"
+				},
+				"Tax_Exempt_Code": {
+					"type": "string"
+				}
+			}
+		},
+		"Terms_of_Sale": {
+			"type": "string"
+		},
+		"Entity_Identification": {
+			"properties": {
+				"Entity_Id_Code": {
+					"type": "string"
+				},
+				"Entity_Name": {
+					"type": "string"
+				},
+				"Entity_Id_Qualifier_Code": {
+					"type": "string"
+				},
+				"Id": {
+					"type": "string"
+				},
+				"Address": {
+					"properties": {
+						"City": {
+							"type": "string"
+						},
+						"State": {
+							"type": "string"
+						},
+						"Postal_Code": {
+							"type": "string"
+						},
+						"Country": {
+							"type": "string"
+						}
+					}
+				}
+			}
+		},
+		"Details": {
+			"properties": {
+				"Item_Information": {
+					"properties": {
+						"Assigned_Identification": {
+							"type": "string"
+						},
+						"Ordered_Quantity": {
+							"type": "string"
+						},
+						"Unit_Code": {
+							"type": "string"
+						},
+						"Unit_Price": {
+							"type": "string"
+						},
+						"Buyers_Item_Number": {
+							"type": "string"
+						},
+						"Vendors_Item_Number": {
+							"type": "string"
+						},
+						"Product_Qualifier_Id": {
+							"type": "string"
+						},
+						"Product_Id": {
+							"type": "string"
+						}
+					}
+				},
+				"Item_Measurements": {
+					"properties": {
+						"Measurement_Code": {
+							"type": "string"
+						},
+						"Measurement_Qualifier": {
+							"type": "string"
+						},
+						"Measurement_Value": {
+							"type": "string"
+						},
+						"Unit": {
+							"type": "string"
+						}
+					}
+				}
+			}
+		}
+	}
+}
