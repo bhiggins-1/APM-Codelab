@@ -1,0 +1,209 @@
+{
+  "B2BMessage": {
+    "Data": {
+      "NetSuitePOAck": {
+        "Shipment": {
+          "Orders": {
+            "Order": {
+              "OrderReferences": {
+                "RefType": "PONumber",
+                "RefValue": "PO-CORP-1120"
+              },
+              "Items": [
+                {
+                  "Item": {
+                    "ItemReference": [
+                      {
+                        "RefType": "POLineNumber",
+                        "RefValue": "1"
+                      },
+                      {
+                        "RefType": "ItemNumber",
+                        "RefValue": "324791"
+                      },
+                      {
+                        "RefType": "ShipQuantity",
+                        "RefValue": "20"
+                      },
+                      {
+                        "RefType": "QuantityUOM",
+                        "RefValue": "CT"
+                      }
+                    ],
+                    "Locations": [
+                      {
+                        "Address": {
+                          "AddressLine1": "50 Fremont St",
+                          "State": "CA",
+                          "PostalCode": "94105",
+                          "City": "San Francisco"
+                        },
+                        "LocationId": "338",
+                        "@role": "SHIP TO"
+                      },
+                      {
+                        "Address": {
+                          "AddressLine1": "500 Parkview Drive",
+                          "State": "WI",
+                          "PostalCode": "54301",
+                          "City": "Green Bay"
+                        },
+                        "LocationId": "77292237",
+                        "@role": "SHIP FROM"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "Item": {
+                    "ItemReference": [
+                      {
+                        "RefType": "POLineNumber",
+                        "RefValue": "2"
+                      },
+                      {
+                        "RefType": "ItemNumber",
+                        "RefValue": "2072174"
+                      },
+                      {
+                        "RefType": "ShipQuantity",
+                        "RefValue": "80"
+                      },
+                      {
+                        "RefType": "QuantityUOM",
+                        "RefValue": "CT"
+                      }
+                    ],
+                    "Locations": [
+                      {
+                        "Address": {
+                          "AddressLine1": "350 Mission St",
+                          "State": "CA",
+                          "PostalCode": "94105",
+                          "City": "San Francisco"
+                        },
+                        "LocationId": "367",
+                        "@role": "SHIP TO"
+                      },
+                      {
+                        "Address": {
+                          "AddressLine1": "500 Parkview Drive",
+                          "State": "WI",
+                          "PostalCode": "54301",
+                          "City": "Green Bay"
+                        },
+                        "LocationId": "77292237",
+                        "@role": "SHIP FROM"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "Item": {
+                    "ItemReference": [
+                      {
+                        "RefType": "POLineNumber",
+                        "RefValue": "3"
+                      },
+                      {
+                        "RefType": "ItemNumber",
+                        "RefValue": "163865"
+                      },
+                      {
+                        "RefType": "ShipQuantity",
+                        "RefValue": "65"
+                      },
+                      {
+                        "RefType": "QuantityUOM",
+                        "RefValue": "CT"
+                      }
+                    ],
+                    "Locations": [
+                      {
+                        "Address": {
+                          "AddressLine1": "415 Mission St",
+                          "State": "CA",
+                          "PostalCode": "94105",
+                          "City": "San Francisco"
+                        },
+                        "LocationId": "587",
+                        "@role": "SHIP TO"
+                      },
+                      {
+                        "Address": {
+                          "AddressLine1": "500 Parkview Drive",
+                          "State": "WI",
+                          "PostalCode": "54301",
+                          "City": "Green Bay"
+                        },
+                        "LocationId": "77292237",
+                        "@role": "SHIP FROM"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "Item": {
+                    "ItemReference": [
+                      {
+                        "RefType": "POLineNumber",
+                        "RefValue": "4"
+                      },
+                      {
+                        "RefType": "ItemNumber",
+                        "RefValue": "467951"
+                      },
+                      {
+                        "RefType": "ShipQuantity",
+                        "RefValue": "30"
+                      },
+                      {
+                        "RefType": "QuantityUOM",
+                        "RefValue": "CT"
+                      }
+                    ],
+                    "Locations": [
+                      {
+                        "Address": {
+                          "AddressLine1": "260 California Ave",
+                          "State": "CA",
+                          "PostalCode": "94306",
+                          "City": "Palo Alto"
+                        },
+                        "LocationId": "1564",
+                        "@role": "SHIP TO"
+                      },
+                      {
+                        "Address": {
+                          "AddressLine1": "500 Parkview Drive",
+                          "State": "WI",
+                          "PostalCode": "54301",
+                          "City": "Green Bay"
+                        },
+                        "LocationId": "77292237",
+                        "@role": "SHIP FROM"
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        },
+        "POAckHeader": {
+          "ReceiverId": "NTORETAIL",
+          "CustomerId": "NTORETAIL",
+          "SenderId": "MYTHICAL SUPPLIER, LLC",
+          "DueDate": "2019-10-18T00:00:00Z"
+        }
+      }
+    },
+    "B2BHeader": {
+      "Sender": "MYTHICAL SUPPLIER, LLC",
+      "Receiver": "NTORETAIL",
+      "MessageType": "PO-ACK",
+      "CreatedDateTime": "2021-09-01T20:47:19.889Z",
+      "BusinessKey": "PO-CORP-1120"
+    }
+  }
+}
